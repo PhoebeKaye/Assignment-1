@@ -1,0 +1,15 @@
+<?php
+
+$dish = "adobo";
+
+if ($dish == "sinigang") {
+    echo "Sarap ng asim!"; 
+} elseif ($dish == "adobo") {
+    echo "Soy sauce and vinegar goodness!"; 
+} elseif ($dish == "lechon") {
+    echo "Crispy skin, juicy meat!"; 
+} else {
+    echo "Another Filipino dish to discover!"; 
+}
+
+?>

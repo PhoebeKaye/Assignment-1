@@ -1,0 +1,9 @@
+<?php
+
+$grade = 85;
+
+if ($grade >= 70) {
+  echo "You passed the exam!";
+}
+
+?>

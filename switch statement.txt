@@ -1,0 +1,19 @@
+<?php
+
+$ulam = "adobo";
+
+switch ($ulam) {
+    case "sinigang":
+        echo "That's a sour and savory soup!";
+        break;
+    case "adobo":
+        echo "Braised in soy sauce, vinegar, and garlic!";
+        break;
+    case "lechon":
+        echo "Roasted pig with crispy skin!";
+        break;
+    default:
+        echo "Another Filipino dish to try!";
+}
+
+?>
